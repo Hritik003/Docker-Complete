@@ -14,4 +14,21 @@ This repo is mainly about the usage of volumes in the containers, practicing how
   docker run -d -p3000:80 --rm --name <container_name> -v <volume_name>:/app/feedback <image_name>:<tag>
   ```
 
+## Volumes-Bind Mount Summary
+
+- Anonymous Volume
+```
+docker run -v /app/data...
+```
+- Named Volume
+```
+docker run -v data:/app/data...
+```
+- Bind Mount
+```
+docker run -v /path/to/code:/app/data...
+```
+
+
+
   
