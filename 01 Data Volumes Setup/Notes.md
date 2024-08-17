@@ -1,4 +1,4 @@
-# Volumes and its setup
+# Volumes, Bind Mount and its setup
 
 
 This repo is mainly about the usage of volumes in the containers, and my notes on how does data is persistent inside the volumes even when container is removed.
@@ -24,14 +24,20 @@ This repo is mainly about the usage of volumes in the containers, and my notes o
 ```
 docker run -v /app/data...
 ```
-- Named Volume
+- ### Named Volume
+  Named volumes are volumes which you create manually but with a name. They are created in `/var/lib/docker/volumes` and can be referenced to by only their **name**. Let's say you create a volume called "mysql_data", you can just reference to it like this `docker run -v mysql_data:/containerdir IMAGE_NAME`
 ```
 docker run -v data:/app/data...
 ```
-- Bind Mount
+- ### Bind Mount
+  Bind mounts are basically just binding a certain directory or file from the host inside the container 
 ```
 docker run -v /path/to/code:/app/data...
 ```
+
+## What should I use?
+
+What you want to use comes mostly down to either preference or your management. If you want to keep everything in the "docker area" (`/var/lib/docker`) you can use **volumes**. If you want to keep your own directory-structure, you can use **binds**.
 
 
 
