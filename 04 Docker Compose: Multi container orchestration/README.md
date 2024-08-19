@@ -46,8 +46,15 @@ From the previous module, we built a multi-container web application for fronten
       data:
       logs:
 
-
-
-
 ```
+
+
+And after executing the following command:
+
+``` docker compose up -d```
+
+this is it!
+
+<img width="1509" alt="image" src="https://github.com/user-attachments/assets/c8936ce1-a56b-458b-b90a-e161daf56d3d">
+
 
