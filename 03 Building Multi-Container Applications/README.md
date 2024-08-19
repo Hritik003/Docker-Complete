@@ -43,4 +43,21 @@ The react code however, is not executed inside of the container. This always run
 
 ### So what should we do now?
 
+So basically, instead of using `http://goals-backend-app...` in the App.js, just replace with the  `http://localhost...` and that will work just fine. 
+
+**Conclusion:**
+that JS is executed in the browser and not in a container, and hence we dont need to put the front-end container in a network. And hence now it works.
+
+![image](https://github.com/user-attachments/assets/bc981f60-948e-46ae-99dc-7f777324c877)
+
+## New things that I have tried:
+
+- Tried adding volume to the mongodb, so that data is persistent each time the mongodb container is exitted.
+- Tried adding bind mount to the backend container, so that any change in `app.js` file gets logged immediately and reflected in the backend, thus no need to rebuild the image file again.
+- Tried adding bind mount to the frontend container, and hence `App.js` changes gets reflected immediately.
+
+  > **_NOTE:_** However, bind mounts are only used in **development-purposes**, in the actual production, you wouldnt want to do that, trust me!
+  
+Alright, this module was great and was not so **Over-helming** to learn. See you in other module.
+
 
