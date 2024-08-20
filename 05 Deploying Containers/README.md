@@ -27,6 +27,10 @@ There are hundreds and thousands of Docker-supporting hosting providers out ther
 
 The [AWS EC2](https://aws.amazon.com/free/?nc2=h_ql_pr_ft&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all]) is a service that allows you to spin up and manager your own remote machines.
 
+<img width="780" alt="image" src="https://github.com/user-attachments/assets/7aa30c2c-4ddb-4bba-a4f0-0d4b0ab46d45">
+
+---
+
 And for that we will be needing a dockerized file to start with. Hence we proceed with [Starter Repository](https://github.com/Hritik003/Docker-Complete/tree/main/05%20Deploying%20Containers/deployment-01-starting-setup)
 
 
