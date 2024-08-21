@@ -50,11 +50,11 @@ docker version
 ```
 ---
 
--Maybe you want such a more managed approach. And I would indeed recommend that you go for a more managed approach because then you can focus on writing your source code and building your dockerized application, and you don't have to focus on managing servers and firewalls and networks.
+- Maybe you want such a more managed approach. And I would indeed recommend that you go for a more **managed approach** because then you can focus on writing your source code and building your dockerized application, and you don't have to focus on managing `servers` and `firewalls` and `networks`.
 
--That requires a totally different set of skills, and as a software and web developer, you might not have that set of skills. So that's why using this EC2 instance was a nice first example, which I mainly used to show you that you can't really just install Docker on a different machine and then use your container data as you used it locally,
+- That requires a totally different set of skills, and as a `software` and `web developer`, you might not have that set of skills. So that's why using this **EC2 instance** was a nice first example, which I mainly used to show you that you can't really just install **Docker** on a different machine and then use your container data as you used it locally,
 
-- but for real applications, bigger applications, maybe all the applications with multiple containers, it might not be ideal unless you really know what you're doing. Then if you do know what you're doing, having this full control over everything could indeed be an advantage.
+- but for real applications, bigger applications, maybe all the applications with `multiple containers`, it might not be ideal unless you really know what you're doing. Then if you do know what you're doing, having this full control over everything could indeed be an advantage.
 
-- But in many cases it will not be, and therefore, throughout the rest of this module, we are not going to use EC2, instead I'll show you other services, which we could use which are managed and we therefore then, don't have to take care about everything.
+- But in many cases it will not be, and therefore, throughout the rest of this module, we are **not going** to use EC2, instead I'll show you other services, which we could use which are managed and we therefore then, don't have to take care about everything.
 
