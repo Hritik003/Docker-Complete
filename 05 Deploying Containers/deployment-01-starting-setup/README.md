@@ -58,3 +58,9 @@ docker version
 
 - But in many cases it will not be, and therefore, throughout the rest of this module, we are **not going** to use EC2, instead I'll show you other services, which we could use which are managed and we therefore then, don't have to take care about everything.
 
+
+<img width="1035" alt="image" src="https://github.com/user-attachments/assets/c9f3a7d6-ab5d-4640-823e-1b64aee29582">
+
+---
+
+
