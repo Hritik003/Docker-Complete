@@ -24,3 +24,9 @@ internally, but data will
 be lost if the container is
 removed and replaced
 by a new one
+
+##  Deployment
+
+![image](https://github.com/user-attachments/assets/9631f4f4-ac4b-4e8d-93a9-af0babbdb7b7)
+
+
