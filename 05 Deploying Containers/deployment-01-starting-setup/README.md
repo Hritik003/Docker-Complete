@@ -63,4 +63,6 @@ docker version
 
 ---
 
-
+## Note on a common error:
+<img width="1196" alt="Screenshot 2024-08-21 at 9 10 24 PM" src="https://github.com/user-attachments/assets/c28d026e-f7c2-48f9-9c56-ebca7f2ede7c">
+The above error occurs because of CORS policy which does not allow requests to localhost(default port 80) without certain headers on our local machine. A work aound for this is to change the listening and exposed port to some other port say, 5000. It should work fine then. Note that port 80 of container can still be used. We just cannot listen to port 80 of our local machine.
